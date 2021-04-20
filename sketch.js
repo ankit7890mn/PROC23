@@ -97,7 +97,7 @@ function keyPressed()
 		
 	}
 	
-	  Matter.Body.translate(packageBody , {x:-20,y:0});
+	  Matter.Body.translate(packageBody , {x:+20,y:0});
 
 	if(keyCode === DOWN_ARROW)
 	{
